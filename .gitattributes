@@ -2,19 +2,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# YALF dictionary files
-*.yalf text eol=lf linguist-language=YAML
-*.yaml text eol=lf
-*.yml text eol=lf
+# YALF dictionary files - показываем как YAML в статистике
+*.yalf text eol=lf linguist-language=YAML linguist-detectable
+*.yaml text eol=lf linguist-detectable
+*.yml text eol=lf linguist-detectable
 
-# Documentation - явно помечаем как документацию
+# Documentation - показываем Markdown в статистике
 *.md text eol=lf linguist-detectable
-*.txt text eol=lf
 
-# README файлы - важны для GitHub
-README* text eol=lf linguist-detectable
-CHANGELOG* text eol=lf linguist-detectable
-CONTRIBUTING* text eol=lf linguist-detectable
+# Остальные файлы
+*.txt text eol=lf
 
 # Scripts
 *.sh text eol=lf
@@ -29,10 +26,10 @@ CONTRIBUTING* text eol=lf linguist-detectable
 .gitignore text eol=lf
 .editorconfig text eol=lf
 
-# Linguist overrides for GitHub language statistics
-# Документация не учитывается в статистике языков
-docs/** linguist-documentation
-examples/** linguist-documentation
+# УБРАЛИ linguist-documentation, чтобы файлы учитывались в статистике
+# Если хотите исключить только определённые папки:
+# tests/** linguist-vendored
+# vendor/** linguist-vendored
 
 # Export ignore
 .gitattributes export-ignore
