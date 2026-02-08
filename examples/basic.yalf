@@ -1,0 +1,22 @@
+# Basic YALF Example
+# Simple dictionary with minimal fields
+
+- id: 1
+  word: "кітап"
+  type: "noun"
+  definitions:
+    - meaning: "Оқуға арналған басылым"
+      translation_ru: "Книга"
+      translation_en: "Book"
+
+- id: 2
+  word: "оқу"
+  type: "verb"
+  definitions:
+    - meaning: "Білім алу"
+      translation_ru: "Учиться, читать"
+      translation_en: "To study, to read"
+      examples:
+        - kk: "Мен мектепте оқимын."
+          ru: "Я учусь в школе."
+          en: "I study at school."

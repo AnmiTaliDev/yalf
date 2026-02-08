@@ -1,0 +1,36 @@
+# Writing Systems Example
+# Demonstrates flexible writing_systems field with multiple orthographies
+
+- id: 1
+  word: "қазақ"
+  type: "noun"
+  transcription: "qɑˈzɑq"
+  writing_systems:
+    cyrillic: "қазақ"
+    latin_2017: "qazaq"
+    latin_2021: "qazaq"
+    arabic: "قازاق"
+    chinese: "哈萨克"
+  definitions:
+    - meaning: "Қазақстанның негізгі халқы"
+      translation_ru: "Казах"
+      translation_en: "Kazakh"
+      translation_zh: "哈萨克人"
+
+- id: 2
+  word: "тіл"
+  type: "noun"
+  transcription: "tɪl"
+  writing_systems:
+    cyrillic: "тіл"
+    latin_2017: "tіl"
+    latin_2021: "tіl"
+    arabic: "تىل"
+  definitions:
+    - meaning: "Сөйлеу құралы"
+      translation_ru: "Язык"
+      translation_en: "Language"
+      examples:
+        - kk: "Қазақ тілі - мемлекеттік тіл."
+          ru: "Казахский язык - государственный язык."
+          en: "Kazakh language is the state language."

@@ -1,0 +1,156 @@
+# Complete Example
+# Demonstrates all YALF features in a single file
+
+- id: 1
+  word: "адам"
+  parent_id: null
+  type: "noun"
+  transcription: "ɑˈdɑm"
+  writing_systems:
+    cyrillic: "адам"
+    latin_2017: "adam"
+    latin_2021: "adam"
+    latin_my: "adam"
+    arabic: "ادام"
+  root_word: "адам"
+  etymology: "Араб-еврей тілдерінен"
+  history: "Арабтың 'ādam' (آدم - Адам, бірінші адам, адамзат) сөзінен шыққан, ол өз кезегінде еврей тілінің 'adam' (אָדָם - адам) сөзінен алынған. Ислам және христиан дінінің таралуымен бірге түркі тілдеріне енген."
+  definitions:
+    - meaning: "Ақыл-ойлы, еңбек құралдарын жасай алатын жоғары тіршілік иесі"
+      translation_ru: "Человек"
+      translation_en: "Human, person"
+      translation_de: "Mensch"
+      translation_fr: "Humain, personne"
+      translation_tr: "İnsan"
+      examples:
+        - kk: "Адам баласы әлеуметтік жан."
+          ru: "Человек - существо социальное."
+          en: "A human is a social being."
+          de: "Der Mensch ist ein soziales Wesen."
+        - kk: "Ол жақсы адам."
+          ru: "Он хороший человек."
+          en: "He is a good person."
+          de: "Er ist ein guter Mensch."
+    - meaning: "Біреу, кейбір адам"
+      translation_ru: "Кто-то, некто"
+      translation_en: "Someone, somebody"
+      translation_de: "Jemand"
+      translation_fr: "Quelqu'un"
+      examples:
+        - kk: "Бір адам келді."
+          ru: "Кто-то пришёл."
+          en: "Someone came."
+          de: "Jemand kam."
+  synonyms:
+    - word_id: null
+      word: "адамзат"
+      note: "В значении 'человечество'"
+    - word_id: null
+      word: "жан"
+      note: "Разговорный вариант"
+
+- id: 2
+  word: "сәлем"
+  parent_id: null
+  type: "interjection"
+  transcription: "sæˈlem"
+  writing_systems:
+    cyrillic: "сәлем"
+    latin_2017: "sálem"
+    latin_2021: "sálem"
+    arabic: "سالەم"
+  etymology: "Араб тілінен"
+  history: "Араб тілінің 'salām' (سلام - сәлем, аман-есенлік) сөзінен шыққан. Ислам мәдениетімен бірге түркі тілдеріне енген."
+  definitions:
+    - meaning: "Сәлемдесу сөзі"
+      translation_ru: "Привет, здравствуйте"
+      translation_en: "Hello, hi"
+      translation_de: "Hallo"
+      translation_fr: "Salut, bonjour"
+      translation_tr: "Selam, merhaba"
+      examples:
+        - kk: "Сәлем! Қалың қалай?"
+          ru: "Привет! Как дела?"
+          en: "Hi! How are you?"
+          de: "Hallo! Wie geht's?"
+          tr: "Selam! Nasılsın?"
+
+- id: 3
+  word: "рахмет"
+  parent_id: null
+  type: "interjection"
+  transcription: "rɑχˈmet"
+  writing_systems:
+    cyrillic: "рахмет"
+    latin_2017: "rakhmet"
+    latin_2021: "raxmet"
+    arabic: "راحمەت"
+  etymology: "Араб тілінен"
+  history: "Араб тілінің 'raḥma' (رحمة - мейірім, рақым) сөзінен туындаған. Түркі тілдерінде алғыс білдіру үшін қолданылады."
+  definitions:
+    - meaning: "Алғыс білдіру сөзі"
+      translation_ru: "Спасибо"
+      translation_en: "Thank you, thanks"
+      translation_de: "Danke"
+      translation_fr: "Merci"
+      translation_tr: "Teşekkür ederim, sağol"
+      examples:
+        - kk: "Көмегіңіз үшін рахмет!"
+          ru: "Спасибо за помощь!"
+          en: "Thanks for your help!"
+          de: "Danke für deine Hilfe!"
+  synonyms:
+    - word_id: null
+      word: "ыраз"
+      note: "Формальный вариант"
+
+- id: 4
+  word: "кітап"
+  parent_id: null
+  type: "noun"
+  transcription: "kɪˈtɑp"
+  writing_systems:
+    cyrillic: "кітап"
+    latin_2017: "kіtap"
+    latin_2021: "kіtap"
+    arabic: "كىتاب"
+  etymology: "Араб тілінен"
+  history: "Араб тілінің 'kitāb' (كتاب - кітап, жазба) сөзінен шыққан."
+  definitions:
+    - meaning: "Оқуға арналған басылым"
+      translation_ru: "Книга"
+      translation_en: "Book"
+      translation_de: "Buch"
+      translation_fr: "Livre"
+      translation_tr: "Kitap"
+      examples:
+        - kk: "Мен кітап оқимын."
+          ru: "Я читаю книгу."
+          en: "I'm reading a book."
+          de: "Ich lese ein Buch."
+
+- id: 5
+  word: "кітапхана"
+  parent_id: 4
+  type: "noun"
+  transcription: "kɪtɑpχɑˈnɑ"
+  writing_systems:
+    cyrillic: "кітапхана"
+    latin_2017: "kіtapkhana"
+    latin_2021: "kіtapxana"
+    arabic: "كىتابخانا"
+  root_word: "кітап"
+  etymology: "Араб-парсы тілдерінен"
+  history: "Араб тілінің 'kitāb' (كتاب - кітап) және парсы тілінің 'xāna' (خانه - үй) сөздерінен құралған. Парсы тілі арқылы түркі тілдеріне енген."
+  definitions:
+    - meaning: "Кітаптар сақталатын және оқылатын мекеме"
+      translation_ru: "Библиотека"
+      translation_en: "Library"
+      translation_de: "Bibliothek"
+      translation_fr: "Bibliothèque"
+      translation_tr: "Kütüphane"
+      examples:
+        - kk: "Мен кітапханаға бардым."
+          ru: "Я пошёл в библиотеку."
+          en: "I went to the library."
+          de: "Ich ging zur Bibliothek."

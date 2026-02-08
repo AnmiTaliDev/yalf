@@ -1,0 +1,2 @@
+# Python dependencies for YALF to SQLite converter
+PyYAML>=6.0

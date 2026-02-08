@@ -1,0 +1,73 @@
+# Derivations Example
+# Demonstrates word derivations using parent_id
+
+- id: 1
+  word: "оқу"
+  parent_id: null
+  type: "verb"
+  transcription: "ɔˈqʊ"
+  writing_systems:
+    latin_2017: "oqu"
+    latin_2021: "oqu"
+  definitions:
+    - meaning: "Білім алу, кітапты оқу"
+      translation_ru: "Учиться, читать"
+      translation_en: "To study, to read"
+      examples:
+        - kk: "Мен университетте оқимын."
+          ru: "Я учусь в университете."
+          en: "I study at university."
+
+- id: 2
+  word: "оқушы"
+  parent_id: 1
+  type: "noun"
+  transcription: "ɔqʊˈʃɯ"
+  writing_systems:
+    latin_2017: "oqushı"
+    latin_2021: "oquşı"
+  root_word: "оқу"
+  definitions:
+    - meaning: "Оқитын адам, білім алушы"
+      translation_ru: "Ученик, студент"
+      translation_en: "Student, pupil"
+      examples:
+        - kk: "Ол мектеп оқушысы."
+          ru: "Он школьник."
+          en: "He is a school student."
+
+- id: 3
+  word: "оқытушы"
+  parent_id: 1
+  type: "noun"
+  transcription: "ɔqɯtʊˈʃɯ"
+  writing_systems:
+    latin_2017: "oqıtushı"
+    latin_2021: "oqıtuşı"
+  root_word: "оқу"
+  definitions:
+    - meaning: "Оқытатын адам, білім беруші"
+      translation_ru: "Учитель, преподаватель"
+      translation_en: "Teacher, instructor"
+      examples:
+        - kk: "Ол математика оқытушысы."
+          ru: "Он преподаватель математики."
+          en: "He is a mathematics teacher."
+
+- id: 4
+  word: "оқу орны"
+  parent_id: 1
+  type: "noun"
+  transcription: "ɔˈqʊ ɔrˈnɯ"
+  writing_systems:
+    latin_2017: "oqu ornı"
+    latin_2021: "oqu ornı"
+  root_word: "оқу"
+  definitions:
+    - meaning: "Білім беретін мекеме"
+      translation_ru: "Учебное заведение"
+      translation_en: "Educational institution"
+      examples:
+        - kk: "Университет - жоғары оқу орны."
+          ru: "Университет - высшее учебное заведение."
+          en: "University is a higher educational institution."

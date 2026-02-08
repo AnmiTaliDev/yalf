@@ -1,0 +1,65 @@
+# Synonyms Example
+# Demonstrates synonym relationships between words
+
+- id: 1
+  word: "үй"
+  type: "noun"
+  transcription: "ʉj"
+  writing_systems:
+    latin_2017: "úı"
+    latin_2021: "úı"
+  definitions:
+    - meaning: "Тұруға арналған ғимарат"
+      translation_ru: "Дом"
+      translation_en: "House, home"
+      examples:
+        - kk: "Менің үйім қаладан тыс."
+          ru: "Мой дом за городом."
+          en: "My house is outside the city."
+  synonyms:
+    - word_id: 2
+      word: "пәтер"
+      note: "Көпқабатты үй"
+    - word_id: null
+      word: "тұрғын үй"
+      note: "Формальный вариант"
+
+- id: 2
+  word: "пәтер"
+  type: "noun"
+  transcription: "pæˈter"
+  writing_systems:
+    latin_2017: "páter"
+    latin_2021: "páter"
+  etymology: "Орыс тілінен (квартира)"
+  definitions:
+    - meaning: "Көпқабатты үйдегі бөлек тұрғын бөлме"
+      translation_ru: "Квартира"
+      translation_en: "Apartment, flat"
+      examples:
+        - kk: "Менің пәтерім екінші қабатта."
+          ru: "Моя квартира на втором этаже."
+          en: "My apartment is on the second floor."
+  synonyms:
+    - word_id: 1
+      word: "үй"
+      note: "Общее значение"
+
+- id: 3
+  word: "адам"
+  type: "noun"
+  transcription: "ɑˈdɑm"
+  writing_systems:
+    latin_2017: "adam"
+    latin_2021: "adam"
+  definitions:
+    - meaning: "Ақыл-ойлы жоғары тіршілік иесі"
+      translation_ru: "Человек"
+      translation_en: "Human, person"
+  synonyms:
+    - word_id: null
+      word: "адамзат"
+      note: "В значении 'человечество'"
+    - word_id: null
+      word: "жан"
+      note: "Разговорный вариант"
