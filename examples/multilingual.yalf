@@ -1,0 +1,80 @@
+# Multilingual Example
+# Demonstrates translations in multiple languages
+
+- id: 1
+  word: "достық"
+  type: "noun"
+  transcription: "dɔsˈtɯq"
+  writing_systems:
+    latin_2017: "dostıq"
+    latin_2021: "dostıq"
+  definitions:
+    - meaning: "Адамдар арасындағы жақын қарым-қатынас"
+      translation_ru: "Дружба"
+      translation_en: "Friendship"
+      translation_de: "Freundschaft"
+      translation_fr: "Amitié"
+      translation_tr: "Dostluk"
+      translation_es: "Amistad"
+      translation_zh: "友谊"
+      translation_ar: "صداقة"
+      examples:
+        - kk: "Достық - бұл қымбат қазына."
+          ru: "Дружба - это драгоценное сокровище."
+          en: "Friendship is a precious treasure."
+          de: "Freundschaft ist ein kostbarer Schatz."
+          fr: "L'amitié est un trésor précieux."
+          tr: "Dostluk değerli bir hazinedir."
+
+- id: 2
+  word: "бейбітшілік"
+  type: "noun"
+  transcription: "bejbɪtʃɪˈlɪk"
+  writing_systems:
+    latin_2017: "beıbіtshіlіk"
+    latin_2021: "beıbіtşіlіk"
+  definitions:
+    - meaning: "Соғыссыз, тыныш жағдай"
+      translation_ru: "Мир, покой"
+      translation_en: "Peace"
+      translation_de: "Frieden"
+      translation_fr: "Paix"
+      translation_tr: "Barış"
+      translation_es: "Paz"
+      translation_zh: "和平"
+      translation_ar: "سلام"
+      translation_ja: "平和"
+      examples:
+        - kk: "Бейбітшілік - ең үлкен қазына."
+          ru: "Мир - величайшее сокровище."
+          en: "Peace is the greatest treasure."
+          de: "Frieden ist der größte Schatz."
+          fr: "La paix est le plus grand trésor."
+
+- id: 3
+  word: "махаббат"
+  type: "noun"
+  transcription: "mɑχɑbˈbɑt"
+  writing_systems:
+    latin_2017: "makhabbat"
+    latin_2021: "maxabbat"
+  etymology: "Араб тілінен"
+  definitions:
+    - meaning: "Біреуге деген қатты сезім"
+      translation_ru: "Любовь"
+      translation_en: "Love"
+      translation_de: "Liebe"
+      translation_fr: "Amour"
+      translation_tr: "Aşk, sevgi"
+      translation_es: "Amor"
+      translation_it: "Amore"
+      translation_pt: "Amor"
+      translation_zh: "爱"
+      translation_ar: "حب"
+      translation_ja: "愛"
+      examples:
+        - kk: "Махаббат - өмірдің мәні."
+          ru: "Любовь - смысл жизни."
+          en: "Love is the meaning of life."
+          de: "Liebe ist der Sinn des Lebens."
+          fr: "L'amour est le sens de la vie."
