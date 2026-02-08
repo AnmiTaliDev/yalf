@@ -2,15 +2,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# YALF dictionary files - показываем как YAML в статистике
-*.yalf text eol=lf linguist-language=YAML linguist-detectable
-*.yaml text eol=lf linguist-detectable
-*.yml text eol=lf linguist-detectable
+*.yalf text eol=lf linguist-language=YAML linguist-detectable=true
+*.yaml text eol=lf linguist-detectable=true
+*.yml text eol=lf linguist-detectable=true
 
-# Documentation - показываем Markdown в статистике
-*.md text eol=lf linguist-detectable
-
-# Остальные файлы
+*.md text eol=lf linguist-detectable=true
 *.txt text eol=lf
 
 # Scripts
@@ -21,17 +17,10 @@
 # JSON files
 *.json text eol=lf
 
-# Config files
 .gitattributes text eol=lf
 .gitignore text eol=lf
 .editorconfig text eol=lf
 
-# УБРАЛИ linguist-documentation, чтобы файлы учитывались в статистике
-# Если хотите исключить только определённые папки:
-# tests/** linguist-vendored
-# vendor/** linguist-vendored
-
-# Export ignore
 .gitattributes export-ignore
 .gitignore export-ignore
 .github/ export-ignore
