@@ -56,3 +56,10 @@ converters/go/yalf2sqlite-*
 # Test files
 test_*.db
 test_*.sqlite
+
+*.byalf
+byalf
+out*
+*.
+
+.cache/
